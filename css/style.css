@@ -1,0 +1,61 @@
+@charset 'UTF-8';
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/matematicabg.jpg) no-repeat center/cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+.camada {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #808080;
+    border: none;
+    color: #ffffff;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.botao:hover {
+    background-color: #000000;
+}
+
+#resultado {
+    background-color: #ffffff;
+    width: 190px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    color: #000000;
+    text-align: right;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
